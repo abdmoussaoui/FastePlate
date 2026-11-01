@@ -1,0 +1,1437 @@
+{
+  "weights": {
+    "best.pt": "8e1afd7e783e60fd1ce10f347de2e461b6cf5c237f045593332e858822276377",
+    "runs\\detect\\train5\\weights\\best.pt": "44a464c87e4f947f3ac4aec038fc3a2f8a6d6984f1317c5df932bd2984d8b524",
+    "runs\\detect\\train6\\weights\\best.pt": "8e1afd7e783e60fd1ce10f347de2e461b6cf5c237f045593332e858822276377"
+  },
+  "runs": [
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.999105057235777
+        },
+        {
+          "text": "26",
+          "confidence": 0.9998098387156548
+        }
+      ],
+      "seconds": 1.3301348999957554,
+      "rss_mb": 300.7890625
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "90743|*126",
+          "confidence": 0.30918669463230414
+        }
+      ],
+      "seconds": 0.2762963999994099,
+      "rss_mb": 306.03125
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9987067650233153
+        },
+        {
+          "text": "4",
+          "confidence": 0.14157673271633087
+        },
+        {
+          "text": "26",
+          "confidence": 0.9999747119845447
+        }
+      ],
+      "seconds": 0.35120249999454245,
+      "rss_mb": 308.51953125
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9987067650233153
+        },
+        {
+          "text": "4",
+          "confidence": 0.14157673271633087
+        },
+        {
+          "text": "26",
+          "confidence": 0.9999747119845447
+        }
+      ],
+      "seconds": 0.4297076999937417,
+      "rss_mb": 309.5859375
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9989976214904855
+        },
+        {
+          "text": "26",
+          "confidence": 0.9997432510537037
+        }
+      ],
+      "seconds": 0.27905770001234487,
+      "rss_mb": 311.1953125
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "90743]* |26",
+          "confidence": 0.2327165247805715
+        }
+      ],
+      "seconds": 0.22996879999118391,
+      "rss_mb": 311.62109375
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9999544181045558
+        },
+        {
+          "text": "26",
+          "confidence": 0.999968221424118
+        }
+      ],
+      "seconds": 0.3432310000061989,
+      "rss_mb": 312.26953125
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9993742004511769
+        },
+        {
+          "text": "4",
+          "confidence": 0.39197352484285375
+        },
+        {
+          "text": "26",
+          "confidence": 0.9999691486462806
+        }
+      ],
+      "seconds": 0.5192457999946782,
+      "rss_mb": 320.3359375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "7442",
+          "confidence": 0.22737528383731842
+        }
+      ],
+      "seconds": 0.3002915999968536,
+      "rss_mb": 332.36328125
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "724449/1114",
+          "confidence": 0.19136027374132855
+        }
+      ],
+      "seconds": 0.4550965000089491,
+      "rss_mb": 333.4765625
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "24449|6F14",
+          "confidence": 0.17673390101483435
+        }
+      ],
+      "seconds": 0.33119699999224395,
+      "rss_mb": 334.40625
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "24449/)F14",
+          "confidence": 0.22177694760782485
+        }
+      ],
+      "seconds": 0.42539240000769496,
+      "rss_mb": 336.2421875
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [
+        {
+          "text": "Y T Aeena",
+          "confidence": 0.00011203074317665537
+        }
+      ],
+      "seconds": 0.32066630000190344,
+      "rss_mb": 338.5390625
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [],
+      "seconds": 0.06018519999634009,
+      "rss_mb": 338.609375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [],
+      "seconds": 0.050502700003562495,
+      "rss_mb": 338.140625
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [],
+      "seconds": 0.20329259999562055,
+      "rss_mb": 339.8671875
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.052905799995642155,
+      "rss_mb": 340.484375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.05573049999657087,
+      "rss_mb": 340.484375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.0514948999916669,
+      "rss_mb": 340.484375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.24953139999706764,
+      "rss_mb": 342.26953125
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "Fvs3 FLY",
+          "confidence": 0.3449776328102418
+        }
+      ],
+      "seconds": 0.5368218999938108,
+      "rss_mb": 354.34765625
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "FY53 FLY",
+          "confidence": 0.6772134102249672
+        }
+      ],
+      "seconds": 0.43186149999382906,
+      "rss_mb": 355.21875
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "FY53 FLY",
+          "confidence": 0.41339455970414785
+        }
+      ],
+      "seconds": 0.47621300000173505,
+      "rss_mb": 355.03125
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "FY53 FLY",
+          "confidence": 0.41339455970414785
+        }
+      ],
+      "seconds": 0.5697560999979032,
+      "rss_mb": 354.9765625
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "Fy54 FLY",
+          "confidence": 0.5070388833674655
+        }
+      ],
+      "seconds": 0.3598096999921836,
+      "rss_mb": 356.046875
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "FY54 FLY",
+          "confidence": 0.8390994772833386
+        }
+      ],
+      "seconds": 0.29618189999018796,
+      "rss_mb": 356.22265625
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "FY54 FLY",
+          "confidence": 0.6428659830350199
+        }
+      ],
+      "seconds": 0.22652739999466576,
+      "rss_mb": 356.2734375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "FYS4 FLY",
+          "confidence": 0.5758311492816262
+        }
+      ],
+      "seconds": 0.3269830000062939,
+      "rss_mb": 357.55859375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [],
+      "seconds": 0.12208640000608284,
+      "rss_mb": 358.70703125
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [
+        {
+          "text": "Xtiu",
+          "confidence": 0.015422923490405083
+        }
+      ],
+      "seconds": 0.362963799998397,
+      "rss_mb": 359.5
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [],
+      "seconds": 0.09695110000029672,
+      "rss_mb": 359.515625
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [
+        {
+          "text": "MCuM",
+          "confidence": 0.07454615831375122
+        }
+      ],
+      "seconds": 0.44108639999467414,
+      "rss_mb": 362.46875
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "907/1",
+          "confidence": 0.1706355905785904
+        },
+        {
+          "text": "26",
+          "confidence": 0.975215943738769
+        }
+      ],
+      "seconds": 1.7387960000050953,
+      "rss_mb": 392.01953125
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "25 ب 9٥743",
+          "confidence": 0.3142706319061915
+        }
+      ],
+      "seconds": 0.6552890000020852,
+      "rss_mb": 424.08984375
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9811450995881634
+        },
+        {
+          "text": "ب",
+          "confidence": 0.999975204621478
+        },
+        {
+          "text": "25",
+          "confidence": 0.7104511191069683
+        }
+      ],
+      "seconds": 1.4383904999995138,
+      "rss_mb": 426.0
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        22,
+        40,
+        219,
+        137
+      ],
+      "detection_confidence": 0.6357463598251343,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9811450995881634
+        },
+        {
+          "text": "ب",
+          "confidence": 0.999975204621478
+        },
+        {
+          "text": "25",
+          "confidence": 0.7104511191069683
+        }
+      ],
+      "seconds": 1.123632799994084,
+      "rss_mb": 427.04296875
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.5346551184446228
+        },
+        {
+          "text": "26",
+          "confidence": 0.6090910082157666
+        }
+      ],
+      "seconds": 0.9059735000046203,
+      "rss_mb": 429.296875
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "26 | ب  9٥743",
+          "confidence": 0.11703801422825375
+        }
+      ],
+      "seconds": 1.1588181999977678,
+      "rss_mb": 430.04296875
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9914129892656341
+        },
+        {
+          "text": "25",
+          "confidence": 0.9053317855091008
+        }
+      ],
+      "seconds": 1.2198514999909094,
+      "rss_mb": 389.171875
+    },
+    {
+      "image": "maroc.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        23,
+        64,
+        219,
+        127
+      ],
+      "detection_confidence": 0.38630253076553345,
+      "tokens": [
+        {
+          "text": "90743",
+          "confidence": 0.9608307918543988
+        },
+        {
+          "text": "ب",
+          "confidence": 0.5235121335754513
+        },
+        {
+          "text": "25",
+          "confidence": 0.984830877320272
+        }
+      ],
+      "seconds": 1.444334500003606,
+      "rss_mb": 438.27734375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "ء 4 + ،",
+          "confidence": 0.02398658214342865
+        }
+      ],
+      "seconds": 1.4777687000023434,
+      "rss_mb": 410.73046875
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "٦2444١١ ٦ ٥ 4",
+          "confidence": 0.15455731640842812
+        }
+      ],
+      "seconds": 0.9506912999931956,
+      "rss_mb": 444.5546875
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "24449 ١ ٢4",
+          "confidence": 0.11446423064295048
+        }
+      ],
+      "seconds": 0.9853358999971533,
+      "rss_mb": 451.265625
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        725,
+        826,
+        1004,
+        891
+      ],
+      "detection_confidence": 0.8915426135063171,
+      "tokens": [
+        {
+          "text": "24449 ١ ٢4",
+          "confidence": 0.14331776267580584
+        }
+      ],
+      "seconds": 2.0237903999950504,
+      "rss_mb": 439.10546875
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [
+        {
+          "text": "    د",
+          "confidence": 0.0016406108195320614
+        }
+      ],
+      "seconds": 2.1494175999978324,
+      "rss_mb": 452.296875
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [],
+      "seconds": 0.07480120001127943,
+      "rss_mb": 452.3671875
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [],
+      "seconds": 0.10633169999346137,
+      "rss_mb": 451.8984375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        497,
+        462,
+        586,
+        478
+      ],
+      "detection_confidence": 0.4178142249584198,
+      "tokens": [],
+      "seconds": 0.24376559999655,
+      "rss_mb": 453.36328125
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.07418300000426825,
+      "rss_mb": 453.859375
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.07163299999956507,
+      "rss_mb": 453.84765625
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.06523789999482688,
+      "rss_mb": 453.84765625
+    },
+    {
+      "image": "4.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        887,
+        454,
+        971,
+        478
+      ],
+      "detection_confidence": 0.3599584996700287,
+      "tokens": [],
+      "seconds": 0.28363249999529216,
+      "rss_mb": 461.546875
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "٤٧53 ٧ ٤٥",
+          "confidence": 0.3264967856414398
+        }
+      ],
+      "seconds": 0.9692607999895699,
+      "rss_mb": 472.33984375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "F٧53 FL٧",
+          "confidence": 0.6625703615942611
+        }
+      ],
+      "seconds": 1.0702708999888273,
+      "rss_mb": 475.66796875
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "F٧53 FLY",
+          "confidence": 0.6471614397474785
+        }
+      ],
+      "seconds": 0.9835755999956746,
+      "rss_mb": 487.6171875
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        614,
+        800,
+        1004,
+        903
+      ],
+      "detection_confidence": 0.8156841397285461,
+      "tokens": [
+        {
+          "text": "F٧53 FLY",
+          "confidence": 0.6471614397474785
+        }
+      ],
+      "seconds": 1.425828300009016,
+      "rss_mb": 487.63671875
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "٤٧54 ٧ ٢١",
+          "confidence": 0.3309024980585238
+        }
+      ],
+      "seconds": 0.8470107000030112,
+      "rss_mb": 488.578125
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "F|54 FL ٧",
+          "confidence": 0.399488988086539
+        }
+      ],
+      "seconds": 0.7171300000045449,
+      "rss_mb": 488.58984375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "F٧54 ٤L٧",
+          "confidence": 0.36453884404631104
+        }
+      ],
+      "seconds": 1.0698819999961415,
+      "rss_mb": 488.65234375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        1813,
+        633,
+        2066,
+        695
+      ],
+      "detection_confidence": 0.7785245180130005,
+      "tokens": [
+        {
+          "text": "F٧54 FL٧",
+          "confidence": 0.7041783736736653
+        }
+      ],
+      "seconds": 1.5868835000001127,
+      "rss_mb": 489.08984375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [],
+      "seconds": 0.15687389999220613,
+      "rss_mb": 489.99609375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "main2",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [
+        {
+          "text": "` '،٧١  ٠",
+          "confidence": 0.3104625719467032
+        }
+      ],
+      "seconds": 1.0692352000041865,
+      "rss_mb": 449.83984375
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "raw",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [],
+      "seconds": 0.1450862999918172,
+      "rss_mb": 452.88671875
+    },
+    {
+      "image": "testtwo.jpg",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "approach": "resized",
+      "box": [
+        1879,
+        392,
+        2050,
+        435
+      ],
+      "detection_confidence": 0.5139595866203308,
+      "tokens": [
+        {
+          "text": "٥٨ ٥",
+          "confidence": 0.1647386603275768
+        }
+      ],
+      "seconds": 1.226348699987284,
+      "rss_mb": 475.546875
+    }
+  ],
+  "model": {
+    "names": {
+      "0": "LP"
+    },
+    "architecture": "{'nc': 1, 'depth_multiple': 0.33, 'width_multiple': 0.25, 'backbone': [[-1, 1, 'Conv', [64, 3, 2]], [-1, 1, 'Conv', [128, 3, 2]], [-1, 3, 'C2f', [128, True]], [-1, 1, 'Conv', [256, 3, 2]], [-1, 6, 'C2f', [256, True]], [-1, 1, 'Conv', [512, 3, 2]], [-1, 6, 'C2f', [512, True]], [-1, 1, 'Conv', [1024, 3, 2]], [-1, 3, 'C2f', [1024, True]], [-1, 1, 'SPPF', [1024, 5]]], 'head': [[-1, 1, 'nn.Upsample', ['None', 2, 'nearest']], [[-1, 6], 1, 'Concat', [1]], [-1, 3, 'C2f', [512]], [-1, 1, 'nn.Upsample', ['None', 2, 'nearest']], [[-1, 4], 1, 'Concat', [1]], [-1, 3, 'C2f', [256]], [-1, 1, 'Conv', [256, 3, 2]], [[-1, 12], 1, 'Concat', [1]], [-1, 3, 'C2f', [512]], [-1, 1, 'Conv', [512, 3, 2]], [[-1, 9], 1, 'Concat', [1]], [-1, 3, 'C2f', [1024]], [[15, 18, 21], 1, 'Detect', ['nc']]], 'ch': 3}"
+  }
+}

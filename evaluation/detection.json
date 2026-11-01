@@ -1,0 +1,38 @@
+[
+  {
+    "weights": "best.pt",
+    "split": "moroccan-license-plate-detection-4\\test",
+    "images": 254,
+    "missing_annotations": 0,
+    "confidence": 0.35,
+    "nms_iou": 0.45,
+    "iou": 0.5,
+    "tp": 252,
+    "fp": 7,
+    "fn": 3,
+    "precision": 0.972972972972973,
+    "recall": 0.9882352941176471,
+    "model_load_seconds": 4.52888470000471,
+    "inference_seconds": 66.47304960021575,
+    "mean_inference_seconds": 0.26170491968588877,
+    "peak_sampled_rss_mb": 362.2265625
+  },
+  {
+    "weights": "runs\\detect\\train5\\weights\\best.pt",
+    "split": "moroccan-license-plate-detection-4\\test",
+    "images": 254,
+    "missing_annotations": 0,
+    "confidence": 0.35,
+    "nms_iou": 0.45,
+    "iou": 0.5,
+    "tp": 224,
+    "fp": 17,
+    "fn": 31,
+    "precision": 0.9294605809128631,
+    "recall": 0.8784313725490196,
+    "model_load_seconds": 0.2360393999988446,
+    "inference_seconds": 52.60785779984144,
+    "mean_inference_seconds": 0.20711755039307653,
+    "peak_sampled_rss_mb": 399.23828125
+  }
+]

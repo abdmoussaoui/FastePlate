@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A focused workspace for detecting and reading Moroccan license plates.">
+  <title>FastePlate — Plate recognition workspace</title>
+  <link rel="icon" href="{{ url_for('static',filename='favicon.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+  <script src="{{ url_for('static',filename='app.js') }}" defer></script>
+</head>
+<body>
+<main>
+  <header class="desktop-heading">
+    <a class="brand" href="/" aria-label="FastePlate home">FASTEPLATE</a>
+    <p>MOROCCAN PLATE RECOGNITION <span>/</span> YOLO &middot; Arabic OCR <span>/</span> CPU</p>
+  </header>
+  <div id="notice" class="notice" role="alert" hidden></div>
+  <section class="toolbar" aria-label="Analysis controls">
+    <div class="file-control"><button class="button secondary" id="choose-button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h7l2 3h9v11H3V7Zm0 0V4h7l2 3"/></svg><span id="choose-label">Choose image</span></button><span id="filename" class="filename">No image selected</span><input id="file-input" type="file" accept="image/jpeg,image/png,image/bmp,image/webp" hidden></div>
+    <div class="analysis-options"><label>OCR preprocessing<select id="mode"><option value="color">Original color</option><option value="resize">Enlarge</option><option value="contrast">Contrast &amp; sharpen</option><option value="threshold">Adaptive threshold</option><option value="perspective">Perspective · experimental</option></select></label><label class="threshold-label">Detection threshold<input id="confidence" type="number" value="0.35" min="0.05" max="0.95" step="0.05"></label><button class="button primary" id="analyze-button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 10 7-10 7V5Z"/></svg><span id="analyze-label">Analyze image</span></button><button class="button secondary" id="export-button" disabled>Export results <span class="file-type">ZIP</span></button></div>
+  </section>
+  <div class="workspace">
+    <section class="image-panel panel" aria-labelledby="image-heading">
+      <div class="panel-heading"><h2 id="image-heading"><span class="section-number">01</span> IMAGE / DETECTION</h2><div class="view-switch" role="group" aria-label="Image display"><button id="original-button" class="active" disabled aria-pressed="true">Original</button><button id="detection-button" disabled aria-pressed="false">Detection</button></div></div>
+      <div class="image-stage" id="drop-zone" tabindex="0" role="button" aria-label="Choose an image or drop a file here">
+        <div id="empty-state" class="empty-state"><svg class="upload-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M9 23V9h14m18 0h14v14M9 41v14h14m18 0h14V41M20 39l9-10 7 7 5-5 8 10H16M25 21h.1"/></svg><h3>Drop an image here</h3><p>Choose a vehicle or plate image,<br>or <span class="text-link">browse your files</span>.</p><span class="upload-hint">JPG, PNG, BMP, WebP · Up to 20 MB / 12 MP</span></div>
+        <img id="main-image" alt="Selected vehicle image" hidden>
+        <div class="processing-overlay" id="processing-overlay" hidden><span class="spinner" aria-hidden="true"></span><strong>Analyzing your image</strong><p id="progress-message">Preparing the models…</p><span>First analysis may take longer while the models load.</span></div>
+      </div>
+      <div class="image-footer"><span id="image-meta">Your image is processed on this computer.</span><a id="download-annotated" class="text-link" hidden>Download annotated image ↗</a></div>
+    </section>
+    <aside class="inspection-panel panel" aria-labelledby="inspection-heading">
+      <div class="panel-heading"><h2 id="inspection-heading"><span class="section-number">02</span> SELECTED PLATE / OCR</h2><span id="plate-number" class="muted">—</span></div>
+      <div class="inspection-body">
+        <div class="crop-stage"><img id="crop-image" alt="Detected license plate crop" hidden><span id="crop-placeholder">The detected plate will appear here.</span></div>
+        <div class="reading-label"><span>ORIGINAL OCR READING</span><span class="tag" id="reading-tag">Awaiting analysis</span></div>
+        <div id="ocr-reading" class="plate-reading" dir="ltr">—</div>
+        <dl class="confidence-list"><div><dt>Detection confidence</dt><dd id="detection-score">—</dd></div><div><dt>OCR confidence <span title="Length-weighted average of OCR fragment confidence; not exact registration accuracy.">ⓘ</span></dt><dd id="ocr-score">—</dd></div></dl>
+        <p class="review-note" id="review-note">Automatic readings can miss letters or confuse digits. Inspect the crop before exporting.</p>
+        <div class="correction-block"><label for="correction">Manual correction <span>Optional</span></label><input type="text" id="correction" dir="ltr" maxlength="250" placeholder="Enter the correct registration" disabled autocomplete="off"><div class="correction-actions"><span id="correction-status" role="status">Original OCR is always preserved.</span><button id="reset-correction" class="text-button" disabled>Reset</button><button class="button small secondary" id="save-correction" disabled>Save correction</button></div></div>
+      </div>
+    </aside>
+  </div>
+  <section class="results-panel panel" aria-labelledby="results-heading">
+    <div class="panel-heading"><h2 id="results-heading"><span class="section-number">03</span> RESULTS <span class="count" id="plate-count">0</span></h2><span class="muted table-hint">Select a plate to inspect it</span></div>
+    <div class="table-scroll"><table><thead><tr><th scope="col">Plate</th><th scope="col">Detection</th><th scope="col">Original OCR</th><th scope="col">OCR confidence</th><th scope="col">Manual correction</th><th scope="col">Review</th></tr></thead><tbody id="results-body"><tr class="empty-row"><td colspan="6" id="results-empty">Your recognition results will appear here.</td></tr></tbody></table></div>
+  </section>
+  <footer class="workspace-footer"><span id="status" role="status"><span class="status-dot"></span> Ready when you are</span><span>YOLO detection <span class="footer-separator">/</span> Arabic + English OCR <span class="footer-separator">/</span> No cloud upload</span></footer>
+</main>
+</body>
+</html>

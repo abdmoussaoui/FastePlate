@@ -1,0 +1,18 @@
+{
+  "language": "ar",
+  "mode": "color",
+  "samples": 1,
+  "character_error_rate": 0.25,
+  "character_accuracy": 0.75,
+  "exact_accuracy": 0.0,
+  "arabic_letter_error_rate": 1.0,
+  "rows": [
+    {
+      "image": "verified_plate.png",
+      "expected": "90743 ب 26",
+      "actual": "90743 25",
+      "edit_distance": 2,
+      "seconds": 1.699586899994756
+    }
+  ]
+}

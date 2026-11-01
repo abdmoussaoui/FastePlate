@@ -1,0 +1,1 @@
+﻿"""FastePlate desktop application."""

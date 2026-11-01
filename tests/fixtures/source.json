@@ -1,0 +1,17 @@
+{
+  "source": {
+    "license": "CC BY 4.0",
+    "project": "moroccan-license-plate-detection",
+    "url": "https://universe.roboflow.com/naima-el-menani/moroccan-license-plate-detection/dataset/4",
+    "version": 4,
+    "workspace": "naima-el-menani"
+  },
+  "class_names": [
+    "LP"
+  ],
+  "note": "Dataset removed from the application checkout. Restore externally only for evaluation or training.",
+  "original_image": "20200614_130201a_flip_jpg.rf.7ea0b9d99c06b611bbe5ff13baffd532.jpg",
+  "fixture": "vehicle.jpg",
+  "annotation": "0 0.38203125 0.428125 0.50703125 0.12109375",
+  "purpose": "One real vehicle image for end-to-end regression checks; not a bundled training dataset."
+}

@@ -1,0 +1,39 @@
+﻿# Python / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded datasets, archives and training outputs
+/moroccan-license-plate-detection-4/
+/data/
+/datasets/
+/runs/
+/experiments/samples/
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.pt
+!/best.pt
+*.pth
+*.onnx
+*.tfevents.*
+
+# Generated previews, reports and user uploads
+/uploads/
+/exports/
+/runtime/
+evaluation/web-preview.png
+evaluation/*_latest.json

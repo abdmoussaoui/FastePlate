@@ -1,0 +1,23 @@
+[
+  {
+    "image": "maroc_crop.jpg",
+    "original": "90743",
+    "restricted": [
+      "90743"
+    ]
+  },
+  {
+    "image": "maroc_crop.jpg",
+    "original": "25",
+    "restricted": [
+      "25"
+    ]
+  },
+  {
+    "image": "testtwo_crop.jpg",
+    "original": "٢٠٥٨٨",
+    "restricted": [
+      "٢٨٨"
+    ]
+  }
+]

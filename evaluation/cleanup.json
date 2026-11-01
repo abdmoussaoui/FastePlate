@@ -1,0 +1,162 @@
+﻿{
+    "removed":  [
+                    {
+                        "path":  "maroc.jpg",
+                        "bytes":  8424
+                    },
+                    {
+                        "path":  "maroc.jpeg",
+                        "bytes":  650663
+                    },
+                    {
+                        "path":  "maroc2.jpg",
+                        "bytes":  5697
+                    },
+                    {
+                        "path":  "plate.jpg",
+                        "bytes":  12393
+                    },
+                    {
+                        "path":  "plate.jpeg",
+                        "bytes":  29441
+                    },
+                    {
+                        "path":  "plate1.png",
+                        "bytes":  4098
+                    },
+                    {
+                        "path":  "testtwo.jpg",
+                        "bytes":  487490
+                    },
+                    {
+                        "path":  "testtwo - Copie.jpg",
+                        "bytes":  487490
+                    },
+                    {
+                        "path":  "testtwocrop.jpg",
+                        "bytes":  178849
+                    },
+                    {
+                        "path":  "out.jpg",
+                        "bytes":  26919
+                    },
+                    {
+                        "path":  "char_0.png",
+                        "bytes":  1255
+                    },
+                    {
+                        "path":  "results.csv",
+                        "bytes":  107
+                    },
+                    {
+                        "path":  "desktop_app.py",
+                        "bytes":  156
+                    },
+                    {
+                        "path":  "requirements-desktop.txt",
+                        "bytes":  54
+                    },
+                    {
+                        "path":  "fasteplate/gui.py",
+                        "bytes":  13778
+                    },
+                    {
+                        "path":  "tools/smoke_gui.py",
+                        "bytes":  2663
+                    },
+                    {
+                        "path":  "evaluation/4_crop.jpg",
+                        "bytes":  1288
+                    },
+                    {
+                        "path":  "evaluation/maroc_crop.jpg",
+                        "bytes":  7724
+                    },
+                    {
+                        "path":  "evaluation/testtwo_crop.jpg",
+                        "bytes":  4314
+                    },
+                    {
+                        "path":  "evaluation/gui-preview.png",
+                        "bytes":  277781
+                    },
+                    {
+                        "path":  "evaluation/web-empty.png",
+                        "bytes":  7259
+                    },
+                    {
+                        "path":  "evaluation/web-mobile.png",
+                        "bytes":  202339
+                    }
+                ],
+    "moved":  [
+                  {
+                      "from":  "add_missing_data.py",
+                      "to":  "experiments/legacy/add_missing_data.py"
+                  },
+                  {
+                      "from":  "arabicocr.py",
+                      "to":  "experiments/legacy/arabicocr.py"
+                  },
+                  {
+                      "from":  "detect_plaque_maroc.py",
+                      "to":  "experiments/legacy/detect_plaque_maroc.py"
+                  },
+                  {
+                      "from":  "main.py",
+                      "to":  "experiments/legacy/main.py"
+                  },
+                  {
+                      "from":  "main1.py",
+                      "to":  "experiments/legacy/main1.py"
+                  },
+                  {
+                      "from":  "main2.py",
+                      "to":  "experiments/legacy/main2.py"
+                  },
+                  {
+                      "from":  "main3.py",
+                      "to":  "experiments/legacy/main3.py"
+                  },
+                  {
+                      "from":  "model_test.py",
+                      "to":  "experiments/legacy/model_test.py"
+                  },
+                  {
+                      "from":  "segmentation.py",
+                      "to":  "experiments/legacy/segmentation.py"
+                  },
+                  {
+                      "from":  "testt.py",
+                      "to":  "experiments/legacy/testt.py"
+                  },
+                  {
+                      "from":  "test_ocr",
+                      "to":  "experiments/legacy/test_ocr"
+                  },
+                  {
+                      "from":  "util.py",
+                      "to":  "experiments/legacy/util.py"
+                  },
+                  {
+                      "from":  "util1.py",
+                      "to":  "experiments/legacy/util1.py"
+                  },
+                  {
+                      "from":  "sort",
+                      "to":  "experiments/legacy/sort"
+                  },
+                  {
+                      "from":  "testfolder",
+                      "to":  "experiments/samples"
+                  }
+              ],
+    "preserved":  [
+                      "best.pt",
+                      "yolov8n.pt",
+                      "runs",
+                      "moroccan-license-plate-detection-4",
+                      "moroccan-license-plate-detection-4.rar",
+                      "evaluation/verified_plate.png"
+                  ]
+}

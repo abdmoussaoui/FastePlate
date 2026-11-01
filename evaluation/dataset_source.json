@@ -1,0 +1,13 @@
+{
+  "source": {
+    "license": "CC BY 4.0",
+    "project": "moroccan-license-plate-detection",
+    "url": "https://universe.roboflow.com/naima-el-menani/moroccan-license-plate-detection/dataset/4",
+    "version": 4,
+    "workspace": "naima-el-menani"
+  },
+  "class_names": [
+    "LP"
+  ],
+  "note": "Dataset removed from the application checkout. Restore externally only for evaluation or training."
+}

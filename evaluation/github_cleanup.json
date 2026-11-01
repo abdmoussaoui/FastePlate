@@ -1,0 +1,35 @@
+{
+  "removed": [
+    {
+      "path": "moroccan-license-plate-detection-4.rar",
+      "files": 1,
+      "bytes": 140476486
+    },
+    {
+      "path": "moroccan-license-plate-detection-4",
+      "files": 5120,
+      "bytes": 142170959
+    },
+    {
+      "path": "yolov8n.pt",
+      "files": 1,
+      "bytes": 6549796
+    },
+    {
+      "path": "experiments/samples",
+      "files": 15,
+      "bytes": 2087401
+    }
+  ],
+  "best_pt_sha256": "8E1AFD7E783E60FD1CE10F347DE2E461B6CF5C237F045593332E858822276377",
+  "retained": [
+    "best.pt",
+    "runs",
+    "experiments/legacy",
+    "tests/fixtures/vehicle.jpg",
+    "evaluation/verified_plate.png"
+  ],
+  "credential_comments_sanitized": 3,
+  "nested_sort_git_metadata_removed": true,
+  "final_checks": "Passed credential-pattern scan, source/model hashes, no large files, app page without dataset. Real-model smoke and core tests passed separately."
+}

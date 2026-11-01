@@ -1,0 +1,67 @@
+{
+  "files_by_extension": {
+    ".py": 31,
+    ".pt": 7,
+    ".png": 11,
+    ".jpeg": 6,
+    ".jpg": 2599,
+    ".rar": 1,
+    ".txt": 2571,
+    ".csv": 3,
+    "(no extension)": 14,
+    ".json": 5,
+    ".yaml": 7,
+    ".cache": 2,
+    ".0": 2,
+    ".md": 1,
+    ".sample": 14,
+    ".idx": 1,
+    ".pack": 1,
+    ".rev": 1
+  },
+  "original_checksums": {
+    "experiments/legacy/add_missing_data.py": "d0035cb33c16cf69d874ec192e9dff0dd97d95000b04967dc4ed70105647f50a",
+    "experiments/legacy/arabicocr.py": "f528fade7e41f8a54fe8721b0ff63eaaaf90cac9b12a32c75f919e12f27ebd74",
+    "experiments/legacy/detect_plaque_maroc.py": "0767063b1d048f4d1f69ae2ac3dddef4d01d156cee94db300dfe4cb0747fa1ef",
+    "experiments/legacy/main.py": "22464ca9acde3db0828c3403a19090bbd59dec9b306aae0ac4598239e12128b1",
+    "experiments/legacy/main1.py": "9256302bb64b3e36da730df0d6e10f56b89b89c7bebf25422440e1886f389369",
+    "experiments/legacy/main2.py": "d0ba8ca95a28ad350cd731026a4c42df0d6e0201d3e91b36f19a07cca400e7cf",
+    "experiments/legacy/main3.py": "92673c553ff168f7eaa13bd44ed72d30e3017d31323b8e925e92d7484138714d",
+    "experiments/legacy/model_test.py": "930a9c2ccae22da1746c0f1ea0a7e9dff29c0181fdc88adc0265975914270dac",
+    "experiments/legacy/segmentation.py": "87fc0c1db892fb4271c4c8823189e0972fe28a23c9745a1b39c302c02dbb50fd",
+    "experiments/legacy/testt.py": "1dbd7760137924ddbb4fedc0abfda6b10970748fb470ea9d5817598833963c80",
+    "experiments/legacy/util.py": "ed72cee7128880df9930211916842ffc11f9384b6ea33590478d11b9bfb6d540",
+    "experiments/legacy/util1.py": "ea7bfeba478c0272f909307cef0780dd76b2d3d547c6721bc928ed092b2d1282",
+    "best.pt": "8e1afd7e783e60fd1ce10f347de2e461b6cf5c237f045593332e858822276377",
+    "runs/detect/train5/weights/best.pt": "44a464c87e4f947f3ac4aec038fc3a2f8a6d6984f1317c5df932bd2984d8b524",
+    "runs/detect/train5/weights/last.pt": "d31c7c7a32bb4b08203f63a40d983ccbc05591d6e016702b2716662ea6eac783",
+    "runs/detect/train6/weights/best.pt": "8e1afd7e783e60fd1ce10f347de2e461b6cf5c237f045593332e858822276377",
+    "runs/detect/train6/weights/last.pt": "1daa403532541ad9f67a66397c30f089407189c8c3a8ecceba28b065f901bc7c"
+  },
+  "dataset": {
+    "train": {
+      "images": 1897,
+      "labels": 1897
+    },
+    "valid": {
+      "images": 407,
+      "labels": 407
+    },
+    "test": {
+      "images": 254,
+      "labels": 254
+    }
+  },
+  "note": "Historical initial file counts; source paths updated after archival. Three legacy files sanitized to remove a credential. Explicitly deleted optional artifacts are listed separately.",
+  "credential_sanitization": {
+    "files": [
+      "experiments/legacy/main.py",
+      "experiments/legacy/main2.py",
+      "experiments/legacy/main3.py"
+    ],
+    "note": "Embedded Roboflow credential removed from historical comments; use ROBOFLOW_API_KEY environment variable. Original historical checksums were updated for these three sanitized files."
+  },
+  "intentionally_removed_artifact_checksums": {
+    "yolov8n.pt": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+  }
+}
